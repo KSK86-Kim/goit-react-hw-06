@@ -1,0 +1,46 @@
+@import './shared.scss';
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #659999, #f4791f);
+  color: $black;
+  line-height: 1.5;
+  font-family: $primary-font-stack;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #373b44, #4286f4);
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: transform 100ms linear;
+}
